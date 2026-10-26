@@ -1,0 +1,22 @@
+{
+  "name": "octokit-hands-on",
+  "version": "1.0.0",
+  "description": "Hands On M5L4: integración con la API de GitHub usando Octokit",
+  "scripts": {
+    "start": "node index.js",
+    "create-issue": "node create-issue.js",
+    "rate-limit": "node rate-limit.js",
+    "test:retry": "node test-retry.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^18.0.8"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
